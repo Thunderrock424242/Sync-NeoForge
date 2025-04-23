@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.kir.sync.compat.mixin",
+  "plugin": "dev.kir.sync.compat.mixin.MixinCompat",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "iris.CustomRenderLayerMixin",
+    "iris.ShellEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
